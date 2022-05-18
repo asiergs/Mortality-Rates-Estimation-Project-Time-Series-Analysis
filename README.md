@@ -8,7 +8,7 @@ The insurance company to be modelled is composed by the following number of poli
 
 <center>
   
-| **Age** | **Policies ** |
+| Age | Policies |
 |:-------:|:-------------:|
 | 67      | 902           |
 | 68      | 659           |
