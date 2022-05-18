@@ -3,15 +3,21 @@
 In this Project, an insurance company risk for the next year is going to be calculated by the estimation 
 of the mortality rates of the policyholders. The objective of the model is to properly evaluate the 
 premium risk (the risk of having more claims than expected) so the economic capital can be estimated. 
+
 The insurance company to be modelled is composed by the following number of policies: 
 
-<p align="center">
-   <img src="https://raw.githubusercontent.com/asiergs/csv_to_view/main/Economic_Capital.svg" alt="2400"/>
-</p>
+| **Age** | **Policies ** |
+|:-------:|:-------------:|
+| 67      | 902           |
+| 68      | 659           |
+| 69      | 1471          |
+| 70      | 978           |
+| 71      | 675           |
+| 72      | 850           |
+| 73      | 882           |
+| 74      | 1035          |
+| 75      | 995           |
 
-The insurance company to be modelled is composed by the following number of policies:
--	Car insurances: 25,234
--	Life insurances: 20,809
 
 For the car claims frequency and severity, the data of last year 1,116 policyholders with 2,230 claims are available. As for the life insurances, the USA-2015 mortality table and the policyholders ages are provided.
 The project has three main parts:
