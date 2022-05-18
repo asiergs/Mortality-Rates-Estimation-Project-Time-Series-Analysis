@@ -7,6 +7,7 @@ premium risk (the risk of having more claims than expected) so the economic capi
 The insurance company to be modelled is composed by the following number of policies: 
 
 <center>
+  
 | **Age** | **Policies ** |
 |:-------:|:-------------:|
 | 67      | 902           |
@@ -18,6 +19,7 @@ The insurance company to be modelled is composed by the following number of poli
 | 73      | 882           |
 | 74      | 1035          |
 | 75      | 995           |
+
 </center>
 
 For the car claims frequency and severity, the data of last year 1,116 policyholders with 2,230 claims are available. As for the life insurances, the USA-2015 mortality table and the policyholders ages are provided.
