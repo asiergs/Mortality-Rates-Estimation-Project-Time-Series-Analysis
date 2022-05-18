@@ -20,6 +20,7 @@ The insurance company to be modelled is composed by the following number of poli
 | 74      | 1035          |
 | 75      | 995           |
 
+</center>
 
 For the car claims frequency and severity, the data of last year 1,116 policyholders with 2,230 claims are available. As for the life insurances, the USA-2015 mortality table and the policyholders ages are provided.
 The project has three main parts:
