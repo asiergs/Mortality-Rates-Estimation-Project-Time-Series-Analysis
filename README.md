@@ -6,6 +6,8 @@ premium risk (the risk of having more claims than expected) so the economic capi
 
 The insurance company to be modelled is composed by the following number of policies: 
 
+<center>
+  
 | **Age** | **Policies ** |
 |:-------:|:-------------:|
 | 67      | 902           |
