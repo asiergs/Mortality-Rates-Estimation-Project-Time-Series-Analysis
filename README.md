@@ -22,20 +22,19 @@ The insurance company to be modelled is composed by the following number of poli
 
 </center>
 
-For the car claims frequency and severity, the data of last year 1,116 policyholders with 2,230 claims are available. As for the life insurances, the USA-2015 mortality table and the policyholders ages are provided.
-The project has three main parts:
-1.	Available data study
-2.	Estimation methods validation
-3.	Probability density function goodness of fit testing
-4.	Estimators 95% confidence level interval calculation
-5.	Aggregated models construction for life and non-life insurances
-6.	Montecarlo simulation for the cost estimation
+The historical mortality rates of the policyholders age is available since 1935 up to 2021. 
+The project has four main parts: 
+
+1. Mortality rates time series ARIMA functional form estimation by Box-Jenkins procedure 
+2. Estimation and diagnosis of the ARIMA model 
+3. One year period mortality rate prediction 
+4. Cost estimation and economic capital calculation
 
 With this model, the expected cost will be evaluated together with the VaR<sub>99.5</sub> and TVaR<sub>99.5</sub> to quantify the worst-case scenarios.
-See the document [Internal_Model_Project_Actuarial_Statistics.pdf](https://github.com/asiergs/Internal-Model-Project-Actuarial-Statistics/blob/main/Internal_Model_Project_Actuarial_Statistics.pdf) for the complete report about the project.
+See the document [Mortality_Rates_Estimation_Time_Series_Analysis.pdf](https://github.com/asiergs/Mortality-Rates-Prediction-Project-Time-Series-Analysis/blob/main/Mortality_Rates_Estimation_Time_Series_Analysis.pdf) for the complete report about the project.
 
 ## How to run the code
 
-To run the code, simply run the project.R script once. The code with the default simulation sizes takes about 8.5 hours to run (i5-7600k). The project_lite.R file is the same code with lower number of simulations so the time is reduced to about 15 minutes.
+To run the code, simply run the project.R script once. Since many equal checks need to be performed for the estimations, the main program has two loops, one for the ARIMA model estimation and the other for the simulation to predict by bootstrap.
 
-Note that for the data export, the **package _writexl_ needs to be installed**.
+Note the program will create folders and save the data into excel files when running.
