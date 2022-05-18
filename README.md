@@ -4,7 +4,7 @@ In this Project, an insurance company risk for the next year is going to be calc
 of the mortality rates of the policyholders. The objective of the model is to properly evaluate the 
 premium risk (the risk of having more claims than expected) so the economic capital can be estimated. 
 
-The insurance company to be modelled is composed by the following number of policies: 
+The insurance company to be modelled is composed by the following number of policies for each age: 
 
 <center>
   
