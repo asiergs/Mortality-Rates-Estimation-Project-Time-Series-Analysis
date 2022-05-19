@@ -30,7 +30,7 @@ The project has four main parts:
 3. One year period mortality rate prediction 
 4. Cost estimation and economic capital calculation
 
-With this model, the expected cost will be evaluated together with the VaR<sub>99.5</sub> and TVaR<sub>99.5</sub> to quantify the worst-case scenarios.
+With this model, the expected cost will be evaluated together with the VaR<sub>99</sub> and TVaR<sub>99</sub> to quantify the worst-case scenarios.
 See the document [Mortality_Rates_Estimation_Time_Series_Analysis.pdf](https://github.com/asiergs/Mortality-Rates-Prediction-Project-Time-Series-Analysis/blob/main/Mortality_Rates_Estimation_Time_Series_Analysis.pdf) for the complete report about the project.
 
 ## How to run the code
