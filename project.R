@@ -557,8 +557,9 @@ check_resid <- function(time_series = "q_67", ARIMA = c(0,1,1)){
 }
 
 check_resid("q_75", c(0,1,1))
+graphics.off()
 
-# predictions for more than one year period (up to 2050)
+# 5. predictions for more than one year period (up to 2050) ----
 h <- 29
 n <- 50
 colors <- rainbow(n)
